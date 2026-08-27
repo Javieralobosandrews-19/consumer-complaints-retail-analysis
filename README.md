@@ -11,7 +11,7 @@ Análise de reclamações, SLA, resolução e satisfação no varejo brasileiro 
 
 ![Prévia do Radar da Experiência do Consumidor](assets/dashboard-preview.png)
 
-**Arquivos do projeto:** [assistir à demonstração](assets/dashboard-demo.mp4) · [baixar o Power BI](power-bi/Radar_Experiencia_Consumidor_FINAL.pbix)
+**Demonstração:** [assistir ao vídeo do dashboard](assets/dashboard-demo.mp4)
 
 ## Visão geral
 
@@ -90,8 +90,7 @@ consumer-complaints-retail-analysis/
 ├── notebooks/
 │   └── 01_business_understanding_radar_cx.ipynb
 ├── power-bi/
-│   ├── 03_medidas_dax.md
-│   └── Radar_Experiencia_Consumidor_FINAL.pbix
+│   └── 03_medidas_dax.md
 ├── sql/
 │   └── 02_consultas_sql_consumidor_varejo.sql
 ├── .gitignore
@@ -107,7 +106,7 @@ consumer-complaints-retail-analysis/
 - **Granularidade:** uma linha por reclamação finalizada
 - **Volume analisado:** 25.691 registros e 25 campos tratados
 
-Os arquivos brutos não são versionados para manter o repositório leve. O dashboard pode ser explorado pelo link público e o arquivo `.pbix` final também está disponível para consulta técnica.
+Os arquivos brutos e o `.pbix` não são versionados para evitar a exposição desnecessária dos registros detalhados. O dashboard completo pode ser explorado pelo link público acima.
 
 ## Cuidados metodológicos
 
